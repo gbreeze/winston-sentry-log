@@ -1,5 +1,4 @@
-src/
-test/
+tests/
 node_modules/
 .editorconfig
 tsconfig.json
