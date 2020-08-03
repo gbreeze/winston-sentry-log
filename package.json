@@ -33,6 +33,7 @@
     "winston-transport": "4.3.0"
   },
   "devDependencies": {
+    "testyts": "^1.0.3",
     "@types/lodash": "^4.14.121",
     "@types/node": "^11.9.6",
     "ts-node": "^8.0.2",
@@ -40,7 +41,7 @@
     "tslint": "^5.13.0",
     "tslint-config-airbnb": "^5.11.1",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.3.3333",
+    "typescript": "^3.9",
     "winston": "^3.2.1"
   }
 }
