@@ -1,6 +1,6 @@
 import * as sentry from '@sentry/node';
 import TransportStream = require('winston-transport');
-export default class Sentry extends TransportStream {
+export declare class Sentry extends TransportStream {
     protected name: string;
     protected tags: {
         [s: string]: any;

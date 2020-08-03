@@ -117,6 +117,6 @@ class Sentry extends TransportStream {
         });
     }
 }
-exports.default = Sentry;
+exports.Sentry = Sentry;
 module.exports = Sentry;
 //# sourceMappingURL=index.js.map
