@@ -123,7 +123,7 @@ export default class Sentry extends TransportStream {
             err.stack = info.stack;
           }
         }
-        this.sentryClient.captureException(err);
+        this.sentryClient.captureException(err, context.level);
         return callback(null, true);
       }
       this.sentryClient.captureMessage(message, context.level);
